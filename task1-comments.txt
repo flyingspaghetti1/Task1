@@ -1,0 +1,16 @@
+$ uname -a - prints the system information, it has more options like "-s", "-n" that print a specific piece of information
+*The proc filesystem is a pseudo-file system that provides an interface to kernel data structures*  
+$ cat /proc/cpuinfo - it prints information about the cpu
+$ cat /proc/meminfo - it prints information about the memory 
+$ dmesg - prints or controls the kernel ring buffer
+$ pstree - displays a tree of processes, -p impicitly disables compation
+*apt - command-line interface*
+$ apt list --installed - it displays the packages that were installed
+*systemctl - may be used to introspect and control the state of the "systemd" system and service manager
+$ systemctl list-units --all --type=service --state=active - lists the units that the systemd currently has in memory, in this case they are filtered by type and state 
+$ ps aux - displays information about a selection of the active processes
+         - "a" tells "ps" to displays all active processes
+         - "u" tells "ps" to displays information about the users as well
+         - "x" used with "a" tells "ps" to display information about processes that are not attached to a terminal
+$ ping 8.8.8.8 - it sends an ICMP echo request to the IP adress 8.8.8.8 and it displays how long it takes a packet to travel from my computer to the adress and back
+$ ip add - it prints a list of network interfaces along with their IP addresses, subnet masks and additional information

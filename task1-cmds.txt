@@ -1,0 +1,18 @@
+$ lshw - lists hardware
+$ find - searches for files in a directory or directories
+$ grep - prints lines from a file that match a pattern chosen by the user
+$ ssh - logs into and executes commands on a remote machine
+$ tar - an archiving utility
+$ sudo <command> - allows a permitted user to execute a command as the superuser or another user
+$ top - displays linux processes
+$ chmod - changes the permissions of files
+$ chown - changes file owner and group
+$ cp - copies files and directories
+$ mv - renames or moves files
+$ rm - removes files or directories
+$ cd - changes the current directory
+$ mkdir - creates directories
+$ touch - creates files
+$ ls / ls -lah - lists directories and their contents
+$ strace uname - traces the system calls made by "uname" that gathers information about the system, like opening files or operating system
+$ ltrace uname - traces the dynamic calls made by "uname"
